@@ -10,6 +10,13 @@ git add 파일경로
 
 git commit -m "설명"
 
+git log
+: 해당 프로젝트 버전 로그 출력
+
+git checkout [commit id(최소 7자리)]
+: 해당 버전 덮어씌움
+: commit id 부분에 - 들어가면 가장 최신버전
+
 git remote add origin [주소]
 : github 프로젝트와 연결
 
